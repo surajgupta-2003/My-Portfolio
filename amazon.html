@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for showing icon in the page from cdnfontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+    <!-- for showing the Fevicon -->
+    <link rel="icon" type="image/jpg" href="amazonimg/favicon.jpg">
+    <title>Amazon Clone</title>
+    
+</head>
+
+<body>
+    <header>
+        <div class="navbar" id="top">
+            <div class="nav-logo border">
+                <div class="logo "></div>
+            </div>
+            <div class="nav-address border">
+                <p >Deliver to</p>
+                <div class="add-icon" style="display: flex;">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p style="font-size: 1rem;margin-left: 5px;">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="searh-input">
+                <div class="search-icon">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-EN border" style="display: flex;">
+                <div class="nav-flag" style="color: red;">
+                    <i class="fa-sharp fa-solid fa-shield-halved"></i>
+                </div>
+                <select id="select" >
+                    <option>EN</option>
+                    <option>Hindi</option>
+                    <option>French</option>
+                    <option>German</option>
+                    <option>US</option>
+                </select>
+            </div>
+            <div class="nav-sign-in border">
+                <div style="font-size: 0.7rem; margin-left: 4px;">Hello,sign in</div>
+                <select >
+                    <option>Account & Lists</option>
+                    <option>List of Account numbers</option>
+                    <option>Personal Accounts</option>
+                    <option>Chart of Accounts</option>
+                </select>
+            </div>
+            <div class="nav-returns border">
+                <a href="">
+                    <div id="d1">Returns</div>
+                    <div id="d2">& Orders</div>
+                </a>
+            </div>
+            <div class="nav-cart border">
+                <a href="" style="display: flex;">
+                    <div class="d1"><i class="fa-sharp fa-solid fa-cart-shopping"></i></div>
+                    <div class="d2">Cart</div>
+                </a>
+            </div>
+        </div>
+        <div class="down" style="display: flex;">
+            <div class="left">
+                <div class="link backg border "><a  href=""><i class="fa-sharp fa-solid fa-bars"></i>&nbsp;&nbsp;All</a></div>
+                <div class="link backg border "><a  href="">Today's Deals</a></div>
+                <div class="link backg border "><a  href="">Customer Service</a></div>
+                <div class="link backg border "><a  href="">Registry</a></div>
+                <div class="link backg border "><a  href="">Gift Cards</a></div>
+                <div class="link backg border "><a  href="">Sell</a></div>
+            </div>
+            <div class="right">
+                <div class="link border"><a href="">Shop deals in Electronics</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="hero-text">
+                You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                delivery. <a href="https://www.amazon.in/" style="color: dodgerblue;">Click here to go to amazon.in</a>
+            </div>
+        </div>
+        <div style="background-color: #cdbba3;">
+            <div class="shop-section">
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Health & Personal Care</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box1_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p >See More</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Home Accessories</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box2_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p >See More</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Furniture</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box3_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p>See More</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Cumputers Accessories</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box4_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p >See More</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-section">
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Beauty Products</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box5_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p >See More</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Pets</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box6_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p>See More</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Gaming Accessories</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box7_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p>See More</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-content">
+                        <h2>Styling Items</h2>
+                        <div class="box-img"
+                            style="background-image: url('amazonimg/box8_image.jpg'); height: 300px; width: 100%;">
+                        </div>
+                        <p >See More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div
+            style="background-color: gray; color:white; display: flex; align-items: center; height: 50px;justify-content: center; margin-top: 35px;">
+            <a href="#top" style="text-decoration: none; color: white; height: 1rem;"> Back to Top</a>
+        </div>
+        <div class="foo-first" style="background-color: rgb(54, 50, 50);display: flex; justify-content: center; height: 80vh; color: white;">
+            <div class="lists" style="display: flex; justify-content: space-evenly;margin-top: 60px; width: 100%;">
+                <div class="foo-li">
+                    <h4>Get to Know Us</h4>
+                    <div><a href="">Careers</a></div>
+                    <div><a href="">Blog</a></div>
+                    <div><a href="">About Amazon</a></div>
+                    <div><a href="">Investor Relations</a></div>
+                    <div><a href="">Amazon Devices</a></div>
+                    <div><a href="">Amazon Science</a></div>
+                </div>
+                <div class="foo-li">
+                    <h4>Make Money With Us</h4>
+                    <div><a href="">Sell products on Amazon</a></div>
+                    <div><a href="">Sell on Amazon Business</a></div>
+                    <div><a href="">Sell apps on Amazon</a></div>
+                    <div><a href="">Become an Affiliate</a></div>
+                    <div><a href="">Advertise Your Products</a></div>
+                    <div><a href="">Self-Publish with Us</a></div>
+                    <div><a href="">Host an Amazon Hub</a></div>
+                    <div><a href="">›See More Make Money with Us</a></div>
+                </div>
+                <div class="foo-li">
+                    <h4>Amazon Payment Products</h4>
+                    <div><a href="">Amazon Business Card</a></div>
+                    <div><a href="">Shop with Points</a></div>
+                    <div><a href="">Reload Your Balance</a></div>
+                    <div><a href="">Amazon Currency Converter</a></div>
+                </div>
+                <div class="foo-li">
+                    <h4>Let Us Help You</h4>
+                    <div><a href="">Amazon and COVID-19</a></div>
+                    <div><a href="">Your Account</a></div>
+                    <div><a href="">Your </a></div>
+                    <div><a href="">Shipping Rates & products </a></div>
+                    <div><a href="">Returns & Replacements</a></div>
+                    <div><a href="">Manage Your Content and Devices</a></div>
+                    <div><a href="">Amazon Assistant</a></div>
+                    <div><a href="">Help
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-panel" >
+            <div class="logo"></div>
+        </div>
+        <div class="last">
+             <div class="pages" style="display: flex;">
+                <a href="">Conditions of Use</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Your ads Privacy Choices</a>
+             </div>
+             <div style="color: white;">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+             </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
