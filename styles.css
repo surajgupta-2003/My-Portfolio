@@ -25,6 +25,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.hypnotic{
+  background-image: url(IMG_20221105_095700.jpg);
+  
+}
 
 nav {
   width: 100%;
@@ -254,12 +258,11 @@ nav li a:hover {
   max-width: var(--max-width);
   width: 100%;
   padding: 5rem;
-  margin: 0 auto;
-}
+  margin: 0px auto;}
 
 .butto {
   padding: 0.8rem;
-  background-image: url(/back.jfif);
+  background-image: url(back.jfif);
   text-decoration: solid;
   color: white;
   border:.2rem solid #c7b8d4;
@@ -340,7 +343,7 @@ nav li a:hover {
 }
 
 #page4:hover{
-  background-image: url(/back2.jfif);
+  background-image: url(/PORT/back2.jfif);
   background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -406,7 +409,7 @@ nav li a:hover {
  
 }
 #page3 .box:hover {
-  background-image: url("/back.jfif");
+  background-image: url("back.jfif");
   font-weight: bolder;
   
 }
@@ -414,7 +417,7 @@ nav li a:hover {
   height: 100%;
 }
 #certi .box:hover{
-  background-image: url(/back2.jfif);
+  background-image: url(back2.jfif);
 }
 footer {
   font-family: Arial, sans-serif;
@@ -673,32 +676,6 @@ body::-webkit-scrollbar {
 
 
 
-.hypnotic {
-  width: 56px;
-  height: 56px;
-  display: grid;
-}
-
-.hypnotic::before,
-.hypnotic::after {
-  content: "";
-  grid-area: 1/1;
-  border-radius: 50%;
-  background: repeating-radial-gradient(farthest-side,#0000 0%,#8460d8 1% 10%,#0000 11% 30%);
-  -webkit-mask: repeating-conic-gradient(#000 0 36deg,#0000 0 72deg);
-  animation: hypnotic-665qll 4s infinite linear;
-}
-
-.hypnotic::after {
-  -webkit-mask: repeating-conic-gradient(#0000 0 36deg,#000 0 72deg);
-  animation-direction: reverse;
-}
-
-@keyframes hypnotic-665qll {
-  100% {
-     transform: rotate(1turn);
-  }
-}
 
 
 #page2,footer{
@@ -715,4 +692,12 @@ body::-webkit-scrollbar {
       conic-gradient(at 50% 10%,#0000 75%,#f7f4fa 0) calc(4*43px) calc(1*43px),
       #ece8ef; 
 background-size: 215px 215px;
+}
+
+#change{
+  filter: grayscale(100%);
+  filter: brightness(80%);
+}
+#change:hover{
+  filter: brightness(100%);
 }
